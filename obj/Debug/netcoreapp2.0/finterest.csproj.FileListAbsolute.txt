@@ -1,0 +1,10 @@
+/Users/monicatran/Desktop/finterest/bin/Debug/netcoreapp2.0/finterest.deps.json
+/Users/monicatran/Desktop/finterest/bin/Debug/netcoreapp2.0/finterest.runtimeconfig.json
+/Users/monicatran/Desktop/finterest/bin/Debug/netcoreapp2.0/finterest.runtimeconfig.dev.json
+/Users/monicatran/Desktop/finterest/bin/Debug/netcoreapp2.0/finterest.dll
+/Users/monicatran/Desktop/finterest/bin/Debug/netcoreapp2.0/finterest.pdb
+/Users/monicatran/Desktop/finterest/obj/Debug/netcoreapp2.0/finterest.csproj.CoreCompileInputs.cache
+/Users/monicatran/Desktop/finterest/obj/Debug/netcoreapp2.0/finterest.AssemblyInfoInputs.cache
+/Users/monicatran/Desktop/finterest/obj/Debug/netcoreapp2.0/finterest.AssemblyInfo.cs
+/Users/monicatran/Desktop/finterest/obj/Debug/netcoreapp2.0/finterest.dll
+/Users/monicatran/Desktop/finterest/obj/Debug/netcoreapp2.0/finterest.pdb
