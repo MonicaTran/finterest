@@ -5,17 +5,20 @@
 }
 
 <div class="container">
-    <div class="jumbotron">
+    <div class="row">
+        <p></p>
+    <div id="dallas-header" class="jumbotron">
     <h1>@ViewData["Location"]</h1>
     <p>@ViewData["Message"]</p>
     <p></p>
     </div>
+    </div>
 </div>
 
 <div class="container">
-    <h2>Events in Dallas</h2>
-    <div class="row">
-        <div class="col-sm-12 col-md-4">
+    <h2>Upcoming Events</h2>
+    <div id="dallas-events" class="row">
+        <!-- <div class="col-sm-12 col-md-4">
             <div class="thumbnail event-card">
                 <h6>INTEREST</h6>
                 <div class="card-body text-info">
@@ -44,6 +47,30 @@
                 </div>
                 <p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
             </div>
-        </div>
+        </div> -->
     </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
