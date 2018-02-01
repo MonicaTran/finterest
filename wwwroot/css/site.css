@@ -52,6 +52,7 @@
 
 .event-card {
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 @media screen and (max-width:1200px) {
