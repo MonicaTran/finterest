@@ -12535,30 +12535,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hannah.hillis\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/monicatran/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\hannah.hillis\\Documents\\GitHub\\finterest\\finterest.csproj",
+      "projectUniqueName": "/Users/monicatran/Documents/GitHub/finterest/finterest.csproj",
       "projectName": "finterest",
-      "projectPath": "c:\\Users\\hannah.hillis\\Documents\\GitHub\\finterest\\finterest.csproj",
-      "packagesPath": "C:\\Users\\hannah.hillis\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\hannah.hillis\\Documents\\GitHub\\finterest\\obj\\",
+      "projectPath": "/Users/monicatran/Documents/GitHub/finterest/finterest.csproj",
+      "packagesPath": "/Users/monicatran/.nuget/packages/",
+      "outputPath": "/Users/monicatran/Documents/GitHub/finterest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hannah.hillis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/monicatran/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
