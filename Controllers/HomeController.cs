@@ -45,7 +45,6 @@ namespace finterest.Controllers
 
             if (music){
                 createAccount.Music = true; 
-                Console.WriteLine("yay checkbox used");
             }
             if (fooddrink){
                 createAccount.FoodDrink = true; 
