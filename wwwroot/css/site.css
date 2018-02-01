@@ -33,3 +33,50 @@
         display: none;
     }
 }
+
+
+/* Events CSS */
+#dallas-header {
+    min-height: 300px;
+    background-color: #eee;
+    background-image: url(http://dallascityhall.com/SpotLight/Dallas-Bond-Program-Web.jpg);
+    background-position: left;
+    color: whitesmoke;
+    text-shadow: 2px 2px grey;
+}
+
+#dallas-header p {
+    font-size: 28px;
+    text-shadow: 2px 2px darkslategrey;
+}
+
+.event-card {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width:1200px) {
+    .event-card {
+        min-height: 200px;
+    }
+}
+
+.event-card .card-title {
+    color: darkslategray;
+}
+
+.event-card h6 {
+    color: dimgrey;
+}
+
+.event-card h4 {
+    color: grey;
+}
+
+.full-screen {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+}

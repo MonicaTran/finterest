@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/monicatran/Desktop/finterest/finterest.csproj",
+      "projectUniqueName": "/Users/monicatran/Documents/GitHub/finterest/finterest.csproj",
       "projectName": "finterest",
-      "projectPath": "/Users/monicatran/Desktop/finterest/finterest.csproj",
+      "projectPath": "/Users/monicatran/Documents/GitHub/finterest/finterest.csproj",
       "packagesPath": "/Users/monicatran/.nuget/packages/",
-      "outputPath": "/Users/monicatran/Desktop/finterest/obj/",
+      "outputPath": "/Users/monicatran/Documents/GitHub/finterest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
