@@ -2,30 +2,36 @@
 // fake database
 var events = [
     {
-        title: "Event 1",
+        id: 1,
+        title: "Restaurant Grand Opening",
         date: "2/1/18",
-        desc: "abcdefg",
-        interest: "music"
+        desc: 
+        "Treat your sweetheart to a special Valentine's Day Dinner at The Grille! We will have a delicious Italian menu prepared for you by our wonderful culinary staff. ",
+        interest: "food"
     },
     {
+        id: 2,
         title: "Event 2",
         date: "2/1/18",
         desc: "abcdefg",
         interest: "food"
     },
     {
+        id: 3,
         title: "Event 3",
         date: "2/1/18",
         desc: "abcdefg",
         interest: "fun"
     },
     {
+        id: 4,
         title: "Event 4",
         date: "2/1/18",
         desc: "abcdefg",
         interest: "food"
     },
     {
+        id: 5,
         title: "Event 5",
         date: "2/1/18",
         desc: "abcdefg",
@@ -46,6 +52,8 @@ if(document.getElementById("dallas-events") != undefined){
     //const el = require('./eventsList');
     //el.hello();
     //createEventsList();
+
+    
     $.getScript('../js/eventsList.js', function()
     {
         createEventsList();
