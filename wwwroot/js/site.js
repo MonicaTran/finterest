@@ -1,4 +1,5 @@
-﻿// fake database
+﻿
+// fake database
 var events = [
     {
         title: "Event 1",
@@ -39,31 +40,14 @@ var interests = [
     }
 ]
 
-//TODO: will move to events.js file
-var createEventsList = function(){
-    var eventsDiv = document.getElementById("dallas-events");
-    events.forEach(function(evnt) {
-        var iconStr = "";
-        let interest = interests.find(x => x.name == evnt.interest)
-        if(interest != undefined){
-            iconStr = interest.icon
-        }
-        let string = '<div class="col-sm-12 col-md-4">' +
-                '<div class="thumbnail event-card clearfix">' +
-                '<div><h6>' + evnt.interest.toUpperCase() + '</h6></div>' +
-                '<div class="card-body text-info">' +
-                    '<h3 class="card-title">' + evnt.title + '</h3>' +
-                    '<p class="card-text">' + evnt.desc + '</p>' +
-                    '<hr/>' +
-                '</div>' +
-                '<p class="pull-right"><a href="/Home/Events" class="btn btn-info" role="button">Learn More</a></p>' +
-            '</div>' +
-        '</div>';
-        eventsDiv.insertAdjacentHTML("beforeend", string);
-
-    })
-}
-
+//Events page scripts
 if(document.getElementById("dallas-events") != undefined){
-    createEventsList();
+    //import {createEventsList} from './eventsList'
+    //const el = require('./eventsList');
+    //el.hello();
+    //createEventsList();
+    $.getScript('../js/eventsList.js', function()
+    {
+        createEventsList();
+    });
 }
