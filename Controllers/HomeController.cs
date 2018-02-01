@@ -10,7 +10,7 @@ namespace finterest.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public ActionResult Index()
         {
             return View();
         }
@@ -27,6 +27,50 @@ namespace finterest.Controllers
             ViewData["Message"] = "Your contact page.";
 
             return View();
+        }
+        public IActionResult CreateAccount()
+        {
+            ViewData["Message"] = "Your account creation page";
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CreateAccount(string name,string email, bool music, bool fooddrink, bool professional, bool education, bool fashion, bool volunteering, bool entertainment, bool health)
+        {
+            Account createAccount = new Account();
+
+            createAccount.Name = name;
+            createAccount.Email = email;
+
+            if (music){
+                createAccount.Music = true; 
+                Console.WriteLine("yay checkbox used");
+            }
+            if (fooddrink){
+                createAccount.FoodDrink = true; 
+            }
+            if (professional){
+                createAccount.Professional = true; 
+            }
+            if (education){
+                createAccount.Education = true; 
+            }
+            if (fashion){
+                createAccount.Fashion = true; 
+            }
+            if (volunteering){
+                createAccount.Volunteering = true; 
+            }
+            if (entertainment){
+                createAccount.Entertainment = true; 
+            }
+            if (health){
+                createAccount.Health = true; 
+            }
+
+            return View("Index");
+
         }
 
         public IActionResult Error()
