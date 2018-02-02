@@ -7,7 +7,7 @@
 <div class="container">
     <div class="row">
         <p></p>
-    <div id="dallas-header" class="jumbotron">
+    <div id="dallas-header" class="jumbotron" style="width:100%">
     <h1>@ViewData["Location"]</h1>
     <p>@ViewData["Message"]</p>
     <p></p>
@@ -52,12 +52,12 @@
 </div>
 
 
-<div class="modal fade" id="evtModal" tabindex="-1" role="dialog" aria-labelledby="evtModal">
-  <div class="modal-dialog full-screen" role="document">
-    <div class="modal-content full-screen">
+<div class="modal" id="evtModal" tabindex="-1" role="" aria-labelledby="evtModal">
+  <div class="modal-dialog" role="document" style="max-width:none; margin:20px; height:100%;">
+    <div class="modal-content" style="">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h6 class="modal-title" id="evt-modal-label">FOOD EVENT</h6>
+        <h6 class="modal-title" id="evt-modal-label" style="position:absolute;">FOOD EVENT</h6>
       </div>
       <div class="modal-body col-sm-12 col-md-6">
         <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40130875%2F197112705556%2F1%2Foriginal.jpg?w=800&rect=0%2C509%2C2448%2C1224&s=7bf2bf19003c620ef069138addc5d7d4" style="max-width:100%">
@@ -67,12 +67,12 @@
             <p id="evt-modal-desc">Event description jgaskldjfkjsdl;fjasdjfl</p>
         </div>
         <div class="col-md-4">
-            <div class="center-block">
+            <p class="center-block" style-"text-align:right;">
             <button id="save-button" type="button" class="btn btn-success pull-right" style="margin-top:15px;">Save Event</button>
-            </div>
+            </p>
         </div>
       </div>
-      <div class="modal-body col-sm-12 col-md-6" style="height:90%">
+      <!-- <div class="col-sm-12 col-md-5" style="">
         <div class="panel panel-default" style="height:100%">
             <div class="panel-heading">
                 <h3 class="panel-title">Group chat</h3>
@@ -81,7 +81,7 @@
                 Panel content
             </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>

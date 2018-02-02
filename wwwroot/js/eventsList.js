@@ -7,16 +7,16 @@ function createEventsList() {
             iconStr = interest.icon
         }
         let string = '<div class="col-sm-12 col-md-4">' +
-                '<div class="thumbnail event-card clearfix">' +
+                '<div class="card card-border-primary event-card clearfix" style="margin-bottom:15px;">' +
                 //'<div style="background:url(\'' + intImages[evnt.interest] + '\')"></div>' +
-                '<img src="' + intImages[evnt.interest] + '">' +
-                '<div class="pull-right" style="padding-right:7px;"><h6>' + evnt.interest.toUpperCase() + '</h6></div>' +
+                '<img src="' + intImages[evnt.interest] + '" style="height:200px;">' +
                 '<div class="card-body text-info">' +
+                '<div class="float-right" style="padding-right:7px;"><h6>' + evnt.interest.toUpperCase() + '</h6></div>' +
                     '<h6>' + Date(evnt.date).slice(4,10).toUpperCase() + "</h6>" +
                     '<h3 class="card-title">' + evnt.title + '</h3>' +
                     '<hr/>' +
                 '</div>' +
-                '<p class="pull-right"><button id="event-' + evnt.id + '" href="/Home/Events" class="btn btn-info" role="button">Learn More</button></p>' +
+                '<p class="float-right" style="text-align:right;"><button id="event-' + evnt.id + '" href="/Home/Events" class="btn btn-info" role="button">Learn More</button></p>' +
             '</div>' +
         '</div>';
         eventsDiv.insertAdjacentHTML("beforeend", string);

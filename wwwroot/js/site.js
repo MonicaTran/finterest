@@ -3,7 +3,7 @@
 var events = [
     {
         id: 1,
-        title: "Restaurant Grand Opening",
+        title: "Restaurant Opening",
         date: "2018-02-01",
         desc: 
         "Treat your sweetheart to a special Valentine's Day Dinner at The Grille! We will have a delicious Italian menu prepared for you by our wonderful culinary staff. ",

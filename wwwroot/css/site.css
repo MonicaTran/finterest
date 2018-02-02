@@ -41,13 +41,19 @@
     background-color: #eee;
     background-image: url(http://dallascityhall.com/SpotLight/Dallas-Bond-Program-Web.jpg);
     background-position: left;
-    color: whitesmoke;
+    color: whitesmoke !important;
     text-shadow: 2px 2px grey;
+}
+
+#dallas-header h1 {
+    color: whitesmoke !important;
+    font-weight:bold;
 }
 
 #dallas-header p {
     font-size: 28px;
-    text-shadow: 2px 2px darkslategrey;
+    text-shadow: 1px 2px darkslategrey;
+    font-size: 1.75rem;
 }
 
 .event-card {
@@ -63,10 +69,12 @@
 
 .event-card .card-title {
     color: darkslategray;
+    font-size:26px;
 }
 
 .event-card h6 {
-    color: dimgrey;
+    color: grey;
+    font-size:14px;
 }
 
 .event-card h4 {
