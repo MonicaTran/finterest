@@ -8,6 +8,16 @@
 /Users/monicatran/Desktop/finterest/obj/Debug/netcoreapp2.0/finterest.AssemblyInfo.cs
 /Users/monicatran/Desktop/finterest/obj/Debug/netcoreapp2.0/finterest.dll
 /Users/monicatran/Desktop/finterest/obj/Debug/netcoreapp2.0/finterest.pdb
+c:/Users/hannah.hillis/Documents/GitHub/finterest/bin/Debug/netcoreapp2.0/finterest.deps.json
+c:/Users/hannah.hillis/Documents/GitHub/finterest/bin/Debug/netcoreapp2.0/finterest.runtimeconfig.json
+c:/Users/hannah.hillis/Documents/GitHub/finterest/bin/Debug/netcoreapp2.0/finterest.runtimeconfig.dev.json
+c:/Users/hannah.hillis/Documents/GitHub/finterest/bin/Debug/netcoreapp2.0/finterest.dll
+c:/Users/hannah.hillis/Documents/GitHub/finterest/bin/Debug/netcoreapp2.0/finterest.pdb
+c:/Users/hannah.hillis/Documents/GitHub/finterest/obj/Debug/netcoreapp2.0/finterest.csproj.CoreCompileInputs.cache
+c:/Users/hannah.hillis/Documents/GitHub/finterest/obj/Debug/netcoreapp2.0/finterest.AssemblyInfoInputs.cache
+c:/Users/hannah.hillis/Documents/GitHub/finterest/obj/Debug/netcoreapp2.0/finterest.AssemblyInfo.cs
+c:/Users/hannah.hillis/Documents/GitHub/finterest/obj/Debug/netcoreapp2.0/finterest.dll
+c:/Users/hannah.hillis/Documents/GitHub/finterest/obj/Debug/netcoreapp2.0/finterest.pdb
 /Users/monicatran/Documents/GitHub/finterest/bin/Debug/netcoreapp2.0/finterest.deps.json
 /Users/monicatran/Documents/GitHub/finterest/bin/Debug/netcoreapp2.0/finterest.runtimeconfig.json
 /Users/monicatran/Documents/GitHub/finterest/bin/Debug/netcoreapp2.0/finterest.runtimeconfig.dev.json
