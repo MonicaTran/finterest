@@ -70,3 +70,16 @@ if(document.getElementById("dallas-events") != undefined){
         createEventsList();
     });
 }
+
+if(document.getElementById("saved-events") != undefined){
+    //import {createEventsList} from './eventsList'
+    //const el = require('./eventsList');
+    //el.hello();
+    //createEventsList();
+
+    
+    $.getScript('../js/eventsList.js', function()
+    {
+        createSavedEventsList();
+    });
+}

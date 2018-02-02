@@ -14,6 +14,8 @@ namespace finterest.Controllers
 
         public IActionResult Events() => View();
 
+        public IActionResult Profile() => View();
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";

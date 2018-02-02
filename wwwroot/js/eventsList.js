@@ -6,13 +6,16 @@ function createEventsList() {
         if(interest != undefined){
             iconStr = interest.icon
         }
+        console.log(Date(evnt.date).slice(4,10).toUpperCase());
+        let dateStr = Date(evnt.date).slice(4,10).toUpperCase();
+        console.log(dateStr);
         let string = '<div class="col-sm-12 col-md-4">' +
                 '<div class="thumbnail event-card clearfix">' +
                 //'<div style="background:url(\'' + intImages[evnt.interest] + '\')"></div>' +
                 '<img src="' + intImages[evnt.interest] + '">' +
                 '<div class="pull-right" style="padding-right:7px;"><h6>' + evnt.interest.toUpperCase() + '</h6></div>' +
                 '<div class="card-body text-info">' +
-                    '<h6>' + Date(evnt.date).slice(4,10).toUpperCase() + "</h6>" +
+                    '<h6>' + evnt.date + "</h6>" +
                     '<h3 class="card-title">' + evnt.title + '</h3>' +
                     '<hr/>' +
                 '</div>' +
@@ -20,7 +23,6 @@ function createEventsList() {
             '</div>' +
         '</div>';
         eventsDiv.insertAdjacentHTML("beforeend", string);
-        console.log(Date(evnt.date).slice(4,10));
 
     })
 
@@ -87,4 +89,34 @@ function saveEventToUser(num) {
         saveBtn.innerText = "Save Event";
     }
     localStorage.setItem("savedEvents", JSON.stringify(savedEvents));
+}
+
+function createSavedEventsList() {
+    var eventsDiv = document.getElementById("saved-events");
+    var savedEvents = JSON.parse(localStorage.getItem("savedEvents"));
+    events.forEach(function(evnt) {
+        if(savedEvents[evnt.id] == true) {
+            var iconStr = "";
+            let interest = interests.find(x => x.name == evnt.interest)
+            if(interest != undefined){
+                iconStr = interest.icon
+            }
+            let string = '<div class="col-sm-12 col-md-4">' +
+                    '<div class="thumbnail event-card clearfix">' +
+                    //'<div style="background:url(\'' + intImages[evnt.interest] + '\')"></div>' +
+                    '<img src="' + intImages[evnt.interest] + '">' +
+                    '<div class="pull-right" style="padding-right:7px;"><h6>' + evnt.interest.toUpperCase() + '</h6></div>' +
+                    '<div class="card-body text-info">' +
+                        '<h6>' + Date(evnt.date).slice(4,10).toUpperCase() + "</h6>" +
+                        '<h3 class="card-title">' + evnt.title + '</h3>' +
+                        '<hr/>' +
+                    '</div>' +
+                    '<p class="pull-right"><button id="event-' + evnt.id + '" href="/Home/Events" class="btn btn-default" role="button">Remove Event</button></p>' +
+                '</div>' +
+            '</div>';
+            eventsDiv.insertAdjacentHTML("beforeend", string);
+        }
+    })
+
+    //addButtonListeners();
 }
